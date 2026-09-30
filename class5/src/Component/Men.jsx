@@ -1,0 +1,12 @@
+import "../index.css"
+import React from 'react'
+
+const Men = () => {
+  return (
+    <div>
+      <h1>Mens WashRoom</h1>
+    </div>
+  )
+}
+
+export default Men

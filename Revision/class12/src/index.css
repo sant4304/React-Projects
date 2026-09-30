@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    position: absolute;
+    
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    text-decoration: underline;
+    white-space: nowrap;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.cou{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    position: absolute;
+    left: 50vw;
+    top: 20vh;
+    transform: translate(-50%,-50%);
+    text-decoration: none;    
+}
+.cou a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 70px;
+    font-weight: 600;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    text-decoration: underline;
+    white-space: nowrap;
+}
+.sale {
+    position: absolute;
+    top: 30vh;
+    /* left: 30vw; */
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    overflow: hidden;
+    padding: 10px 0;
+    flex-wrap: nowrap;
+}
+.sale p{
+    flex-shrink: 0;
+}
+
+.footer{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(128, 70, 9, 0.744);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer button {
+  padding: 5px 10px;
+  border: none;
+  font-size: 10px;
+  background-color: darkolivegreen;
+  cursor: pointer;
+}
+
+
+.footer button:active {
+  transform: scale(1.1);
+} 

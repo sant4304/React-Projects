@@ -1,0 +1,1 @@
+Redux toolkit used for data ceteralization

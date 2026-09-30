@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvatica';
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+button{
+  color: white;
+  background-color: rgb(4, 78, 197);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-left:5px ;
+  margin-top: 10px;
+  
+}
+button:active{
+   cursor: pointer;
+  scale: 0.95;
+  background-color: rgba(237, 23, 16, 0.69);
+}
